@@ -1,0 +1,162 @@
+.crime-container {
+    padding: 2rem;
+    margin-left: 200px;
+    min-height: calc(100vh - 4rem);
+    position: relative;
+    padding-top: 10rem;
+    max-width: 900px;
+    
+}
+
+.crime-table {
+
+    border-collapse: collapse;
+    margin-top: 50px;
+    background-color: #1a1a1a;
+    color: #9c823a;
+    padding: 5px 20px;
+    
+}
+
+.crime-table td {
+    padding: 20px; /* Sets default padding for all data cells */
+}
+
+.crime-table th, .crime-table td {
+    max-width: 600px;
+    text-align: left;
+    border: 1px solid #9c823a;
+}
+
+.crime-table th {
+    padding: 5px 20px; /* Overrides padding for header cells only */
+    background-color: #000;
+    color: #9c823a;
+}
+
+.crime-title {
+    color:#9c823a;
+    text-align: center;
+    margin-top: 400px;
+    font-size: 2em;
+    text-shadow: #1a1a1a 3px;
+    margin-right: 150px;
+}
+.report-section {
+    max-width: 600px;
+    margin: 140px auto 140px auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 2rem;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+   position: center;
+   width: 200%;
+   align-items: center;
+   justify-content: center;
+   margin-right: 150px;
+   font-size: 20px;
+
+  }
+  
+  
+  .report-section h1 h3{
+    font-family: 'Courier New';
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9c823a;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+  
+  }
+  
+  .form-group label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border: 0.1px solid #6b5a2b;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(3px);
+    color: #9c9970;
+    input[type="time"] {
+      color: #9c823a;
+      background: rgba(255,255,255,0.15);
+      border-radius: 8px;
+      border: 1px solid #9c823a;
+      padding: 10px;
+    }
+    
+  }
+  
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color:  #080b0e;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #d6a110;
+  }
+  .fixed-contact-icons {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000;
+    
+  }
+  
+  .fixed-contact-icons a {
+    color: rgb(224, 199, 151);
+    font-size: 28px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    border-radius: 50%;
+    transition: color 0.3s, background 0.3s;
+    text-align: center;
+  }
+  
+.fixed-contact-icons a:hover {
+  color:#d6a110;
+}
+.profile-avatar {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #9c823a;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  z-index: 1001;
+}
+  
